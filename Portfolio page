@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anjal Paunikar - Web Developer Portfolio</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    
+    header {
+      background-color: #007b77;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 5px 15px;
+      border-radius: 5px;
+    }
+    
+    nav a:hover,
+    nav a:focus {
+      background-color: #ff4500;
+    }
+    
+    section {
+      padding: 50px;
+      text-align: left;
+    }
+    
+    .about-me {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    
+    .projects {
+      background-color: #007b77;
+      color: #fff;
+    }
+    
+    .skills {
+      background-color: #333;
+      color: #fff;
+    }
+    
+    .education {
+      background-color: #007b77;
+      color: #fff;
+    }
+    
+    .contact {
+      background-color: #333;
+      color: #fff;
+    }
+    
+    footer {
+      background-color: #007b77;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/X292TSB/istockphoto-1300845620-612x612.jpg" alt="Anjal Paunikar" border="0"></a>
+    <div>
+      <h1>Anjal Paunikar</h1>
+      <p>Web Developer Portfolio</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a> <!-- Added Education link -->
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about-me">
+    <h2>About Me</h2>
+    <p>I am an IT student. I wish to contribute to my community and to work in challenging positions where I will have exposure to project management technologies. I am extremely passionate about designing.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>C/C++ Internship with Cognifyz Tech</li>
+      <li>Food Recipe App</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Data Analysis (SQL) Management</li>
+      <li>Marketing</li>
+      <li>C, Java, HTML, CSS, Linux, Illustrator, MS Office</li>
+      <li>3D Designing</li>
+      <li>IELTS (8 Bands)</li>
+    </ul>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <p>Pursuing B.Tech in IT (SGPA: 9.95) from Shri Ramdeobaba College of Engineering & Management, Nagpur</p>
+    <p>12th from MK Umathe College</p>
+    <p>10th from Podar International School, Besa, Nagpur</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Phone Number: 738583849</p>
+    <p>Email ID: aufhf@kmdh.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Anjal Paunikar</p>
+  </footer>
+</body>
+</html>
